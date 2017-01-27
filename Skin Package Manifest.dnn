@@ -1,0 +1,62 @@
+<dotnetnuke type="Package" version="9.0">
+  <packages>
+    <package name="GSN.Paper" type="Skin" version="1.0.1">
+      <friendlyName>GSN.Paper Skin</friendlyName>
+      <description>GSN.Paper is an DNN skin that uses Bootstrap and Fontawesome by Gerald Ncube</description>
+      <owner>
+        <name>Gerald Ncube</name>
+        <organization>geraldncube.co.uk</organization>
+        <url>www.geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>		
+      </owner>
+			<azureCompatible>true</azureCompatible>
+			<license src="License.txt"></license>
+			<releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+      <components>
+        <component type="Skin">
+          <skinFiles>
+            <skinName>GSN.Paper</skinName>
+            <basePath>Portals\_default\Skins\GSN.Paper</basePath>
+          </skinFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Skins\GSN.Paper</basePath>
+            <resourceFile>
+              <name>GSN.PaperSkins.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+    <package name="GSN.Paper" type="Container" version="1.0.1">
+      <friendlyName>GSN.Paper Containers</friendlyName>
+      <description>GSN.Paper is a DNN containers that uses Bootstrap and Fontawesome by Gerald Ncube</description>
+      <owner>
+        <name>Gerald Ncube</name>
+        <organization>geraldncube.co.uk</organization>
+        <url>www.geraldncube.co.uk</url>
+        <email>me@geraldncube.co.uk</email>
+      </owner>
+	  <azureCompatible>true</azureCompatible>
+      <license>Copyright by Gerald Ncube</license>
+      <releaseNotes></releaseNotes>
+      <components>
+        <component type="Container">
+          <containerFiles>
+            <containerName>GSN.Paper</containerName>
+            <basePath>Portals\_default\Containers\GSN.Paper</basePath>
+          </containerFiles>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>Portals\_default\Containers\GSN.Paper</basePath>
+            <resourceFile>
+              <name>GSN.PaperContainers.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
