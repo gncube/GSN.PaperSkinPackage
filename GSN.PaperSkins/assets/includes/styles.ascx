@@ -1,5 +1,5 @@
 ﻿
-<dnn:DnnCssInclude ID="BootstrapCSS" runat="server" FilePath="assets/plugins/bootstrap/3.3.7/css/bootstrap.min.css" PathNameAlias="SkinPath" Priority="12" />
+<dnn:DnnCssInclude ID="BootstrapCSS" runat="server" FilePath="assets/css/bootstrap.paper.min.css" PathNameAlias="SkinPath" Priority="12" />
 <dnn:DnnCssInclude ID="fontawaresomeCSS" runat="server" FilePath="assets/plugins/font-awesome/4.7.0/css/font-awesome.min.css" PathNameAlias="SkinPath" Priority="13" />
 <dnn:DnnCssInclude ID="SmartMenuBootstrapCSS" runat="server" FilePath="assets/css/jquery.smartmenus.bootstrap.css" PathNameAlias="SkinPath" Priority="14" />
 <dnn:DnnCssInclude ID="SimpleMenuCSS" runat="server" FilePath="assets/menus/SimpleMenu/SimpleMenu.css" PathNameAlias="SkinPath" Priority="15" />

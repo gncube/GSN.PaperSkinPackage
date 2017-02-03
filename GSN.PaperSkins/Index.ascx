@@ -19,7 +19,7 @@
 <dnn:META ID="META1" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
 
 <!-- Styles Section -->
-<!--#include file="assets/AddStyles.ascx"-->
+<!--#include file="assets/includes/styles.ascx"-->
 <!-- End Styles Section -->
 
 <!-- Start : Header Section -->
@@ -77,11 +77,11 @@
     <!-- ./ Navigation -->
 </header>
 
+
 <!-- Start : Content Pane : full width -->
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div id="ContentPane" runat="server" />
+        <div class="col-md-12" id="ContentPane" runat="server" />
         </div>
     </div>
 </div>
@@ -95,12 +95,12 @@
 
 <!--/contentWrapper-->
 <!-- Footer Section -->
-<!--#include file="assets/footer.ascx"-->
+<!--#include file="assets/includes/footer.ascx"-->
 <!-- End Footer Section -->
 <!--/siteWrapper-->
 
 <!-- Scripts Section -->
-<!--#include file="assets/AddScripts.ascx"-->
+<!--#include file="assets/includes/scripts.ascx"-->
 <!-- End Scripts Section -->
 
 
