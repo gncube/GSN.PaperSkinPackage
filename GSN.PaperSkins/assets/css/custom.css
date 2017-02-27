@@ -227,5 +227,34 @@ footer {
 .bg-color-dark {
     background: #49515F;
     color: #fff;
-    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.vertical-middle {
+    display: list-item;
+    list-style: none;
+    padding: 4px 10px;
+    /* margin: 4px 0 0 2px;*/
+    max-height: 20px;
+}
+
+.language-object {
+    padding: 5px 10px;
+}
+
+.language-object img {
+    margin: 0 10px 0 0;
+}
+
+.language-object .selected img {
+    border: 1px solid #fff;
+    padding: 3px;
+}
+
+.vertical-middle:not([attr*='']) {
+    display: list-item;
+    list-style: none;
+    padding: 5px 5px -2px 5px;
+    margin: 4px 0 0 2px;
+    min-height: 27px;
 }

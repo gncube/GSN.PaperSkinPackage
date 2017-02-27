@@ -346,13 +346,19 @@ ul.searchSkinObjectPreview {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 1999;
     position: fixed;
     margin-top: -40px;
     border-bottom: none;
     box-shadow: 0 0 3px #bbb;
     background: rgba(255, 255, 255, 0.96);
     transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .header-fixed-shrink .navbar {
+        margin-top: -66px;
+    }
 }
 
 
