@@ -76,16 +76,16 @@
     </div>
     <!-- ./ Navigation -->
 </header>
+
 <!-- End : Header Section -->
 <!-- PageHeader Section -->
-<!--#include file="assets/pageheader.ascx"-->
+<!--#include file="assets/includes/pageheader.ascx"-->
 <!-- End PageHeader Section -->
 
 <!-- Start : Content Pane : full width -->
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div id="ContentPane" runat="server" />
+        <div class="col-md-12" id="ContentPane" runat="server" />
         </div>
     </div>
 </div>
