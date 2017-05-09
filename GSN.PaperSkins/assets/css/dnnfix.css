@@ -213,3 +213,11 @@ li p {
 .col-md-9.EditBarEmptyPane {
     width: 75% !important;
 }
+
+
+/* dnnModuleDialog  
+-------------------------------------------------------------------------------*/
+
+.dnnModuleDialog {
+    top: 30% !important;
+}
